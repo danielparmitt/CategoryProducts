@@ -1,0 +1,14 @@
+#product{
+    width: 67%;
+    /* border: 1px solid green; */
+}
+#order{
+    width: 30%;
+    /* border: 1px solid red; */
+}
+#app{
+    display: flex;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+<div>
+    <h4>ORDERS</h4>
+    <p>TOTAL AMOUNT TO PAY = {{commonService.amount}} &nbsp;&nbsp;&nbsp; <button class="btn btn-primary" *ngIf="commonService.amount != 0" >PAY</button></p>
+    
+    <ul>
+        <li *ngFor="let item of commonService.orders">
+            <div *ngIf="item != null">
+                <br>
+                <img [src]="item.product_url" alt="">
+                <p>Product NAME - {{item.product_name}}</p>
+                <p>Product PRICE - {{item.price}} &nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-danger" (click)="commonService.remove(item.product_id)">Remove</button></p>
+                
+            </div>
+        </li>
+    </ul>
+</div>
