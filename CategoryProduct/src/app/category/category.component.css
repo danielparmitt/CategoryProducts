@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+h2{
+    color: coral;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+/* h5{
+    text-align: center;
+} */

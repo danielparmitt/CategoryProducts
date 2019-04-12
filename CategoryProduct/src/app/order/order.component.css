@@ -1,0 +1,9 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}

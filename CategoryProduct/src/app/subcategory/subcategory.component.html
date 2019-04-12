@@ -1,0 +1,10 @@
+<div>
+  <ul>
+    <li *ngFor="let item of commonService.filtersub">
+      <!-- <p>{{item.sub_category_id}}</p> -->
+      <img [src]="item.sub_category_url" alt="">
+      <br>
+      <button class="btn btn-success" (click)="sendSCID(item.category_id,item.sub_category_id)" >{{item.sub_category_name}}</button>
+    </li>
+  </ul>
+</div>
